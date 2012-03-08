@@ -22,6 +22,15 @@
 		FA43BFB2150888C4002483C0 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BFA9150888C4002483C0 /* markdown.h */; };
 		FA43BFB3150888C4002483C0 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFAA150888C4002483C0 /* stack.c */; };
 		FA43BFB4150888C4002483C0 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BFAB150888C4002483C0 /* stack.h */; };
+		FA43BFD415088A0C002483C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA43BFD315088A0C002483C0 /* Foundation.framework */; };
+		FA43BFDF15088A5B002483C0 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFA3150888C4002483C0 /* autolink.c */; };
+		FA43BFE015088A5B002483C0 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFA5150888C4002483C0 /* buffer.c */; };
+		FA43BFE115088A5B002483C0 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFA8150888C4002483C0 /* markdown.c */; };
+		FA43BFE215088A5B002483C0 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFAA150888C4002483C0 /* stack.c */; };
+		FA43BFE315088A5B002483C0 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6915088655002483C0 /* houdini_href_e.c */; };
+		FA43BFE415088A5B002483C0 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6A15088655002483C0 /* houdini_html_e.c */; };
+		FA43BFE515088A5B002483C0 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6B15088655002483C0 /* html_smartypants.c */; };
+		FA43BFE615088A5B002483C0 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6C15088655002483C0 /* html.c */; };
 		FA5EACDE1507BEA400A3B2BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5EACDD1507BEA400A3B2BF /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +50,8 @@
 		FA43BFA9150888C4002483C0 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = ../src/markdown.h; sourceTree = "<group>"; };
 		FA43BFAA150888C4002483C0 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stack.c; path = ../src/stack.c; sourceTree = "<group>"; };
 		FA43BFAB150888C4002483C0 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ../src/stack.h; sourceTree = "<group>"; };
+		FA43BFD215088A0C002483C0 /* libsundown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsundown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA43BFD315088A0C002483C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA5EACDA1507BEA400A3B2BF /* libsundown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsundown.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5EACDD1507BEA400A3B2BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FA5EACE01507BEA400A3B2BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +61,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FA43BFCF15088A0C002483C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA43BFD415088A0C002483C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA5EACD71507BEA400A3B2BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -74,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5EACDA1507BEA400A3B2BF /* libsundown.a */,
+				FA43BFD215088A0C002483C0 /* libsundown.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				FA5EACDD1507BEA400A3B2BF /* Cocoa.framework */,
+				FA43BFD315088A0C002483C0 /* Foundation.framework */,
 				FA5EACDF1507BEA400A3B2BF /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -131,6 +152,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		FA43BFD015088A0C002483C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA5EACD81507BEA400A3B2BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -148,6 +176,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		FA43BFD115088A0C002483C0 /* sundown-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA43BFDD15088A0D002483C0 /* Build configuration list for PBXNativeTarget "sundown-iOS" */;
+			buildPhases = (
+				FA43BFCE15088A0C002483C0 /* Sources */,
+				FA43BFCF15088A0C002483C0 /* Frameworks */,
+				FA43BFD015088A0C002483C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sundown-iOS";
+			productName = "sundown-iOS";
+			productReference = FA43BFD215088A0C002483C0 /* libsundown.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		FA5EACD91507BEA400A3B2BF /* sundown */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5EACEB1507BEA400A3B2BF /* Build configuration list for PBXNativeTarget "sundown" */;
@@ -186,11 +231,27 @@
 			projectRoot = "";
 			targets = (
 				FA5EACD91507BEA400A3B2BF /* sundown */,
+				FA43BFD115088A0C002483C0 /* sundown-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FA43BFCE15088A0C002483C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA43BFDF15088A5B002483C0 /* autolink.c in Sources */,
+				FA43BFE015088A5B002483C0 /* buffer.c in Sources */,
+				FA43BFE115088A5B002483C0 /* markdown.c in Sources */,
+				FA43BFE215088A5B002483C0 /* stack.c in Sources */,
+				FA43BFE315088A5B002483C0 /* houdini_href_e.c in Sources */,
+				FA43BFE415088A5B002483C0 /* houdini_html_e.c in Sources */,
+				FA43BFE515088A5B002483C0 /* html_smartypants.c in Sources */,
+				FA43BFE615088A5B002483C0 /* html.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA5EACD61507BEA400A3B2BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +270,31 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		FA43BFDB15088A0D002483C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = sundown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA43BFDC15088A0D002483C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = sundown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		FA5EACE91507BEA400A3B2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -310,6 +396,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA43BFDD15088A0D002483C0 /* Build configuration list for PBXNativeTarget "sundown-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA43BFDB15088A0D002483C0 /* Debug */,
+				FA43BFDC15088A0D002483C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		FA5EACD41507BEA300A3B2BF /* Build configuration list for PBXProject "sundown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
