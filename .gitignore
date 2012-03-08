@@ -3,3 +3,8 @@ libsundown.so*
 sundown
 smartypants
 *.exe
+build
+DerivedData
+xcuserdata
+.DS_Store
+

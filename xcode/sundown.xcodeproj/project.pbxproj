@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA43BF6D15088655002483C0 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6915088655002483C0 /* houdini_href_e.c */; };
+		FA43BF6E15088655002483C0 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6A15088655002483C0 /* houdini_html_e.c */; };
+		FA43BF6F15088655002483C0 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6B15088655002483C0 /* html_smartypants.c */; };
+		FA43BF7015088655002483C0 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BF6C15088655002483C0 /* html.c */; };
+		FA43BF75150887B9002483C0 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BF73150887B9002483C0 /* houdini.h */; };
+		FA43BF76150887B9002483C0 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BF74150887B9002483C0 /* html.h */; };
+		FA43BFAC150888C4002483C0 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFA3150888C4002483C0 /* autolink.c */; };
+		FA43BFAD150888C4002483C0 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BFA4150888C4002483C0 /* autolink.h */; };
+		FA43BFAE150888C4002483C0 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFA5150888C4002483C0 /* buffer.c */; };
+		FA43BFAF150888C4002483C0 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BFA6150888C4002483C0 /* buffer.h */; };
+		FA43BFB0150888C4002483C0 /* html_blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BFA7150888C4002483C0 /* html_blocks.h */; };
+		FA43BFB1150888C4002483C0 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFA8150888C4002483C0 /* markdown.c */; };
+		FA43BFB2150888C4002483C0 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BFA9150888C4002483C0 /* markdown.h */; };
+		FA43BFB3150888C4002483C0 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = FA43BFAA150888C4002483C0 /* stack.c */; };
+		FA43BFB4150888C4002483C0 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = FA43BFAB150888C4002483C0 /* stack.h */; };
+		FA5EACDE1507BEA400A3B2BF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5EACDD1507BEA400A3B2BF /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA43BF6915088655002483C0 /* houdini_href_e.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = houdini_href_e.c; path = ../html/houdini_href_e.c; sourceTree = SOURCE_ROOT; };
+		FA43BF6A15088655002483C0 /* houdini_html_e.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = houdini_html_e.c; path = ../html/houdini_html_e.c; sourceTree = SOURCE_ROOT; };
+		FA43BF6B15088655002483C0 /* html_smartypants.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = html_smartypants.c; path = ../html/html_smartypants.c; sourceTree = SOURCE_ROOT; };
+		FA43BF6C15088655002483C0 /* html.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = html.c; path = ../html/html.c; sourceTree = SOURCE_ROOT; };
+		FA43BF73150887B9002483C0 /* houdini.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = ../html/houdini.h; sourceTree = "<group>"; };
+		FA43BF74150887B9002483C0 /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = html.h; path = ../html/html.h; sourceTree = "<group>"; };
+		FA43BFA3150888C4002483C0 /* autolink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = autolink.c; path = ../src/autolink.c; sourceTree = "<group>"; };
+		FA43BFA4150888C4002483C0 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = ../src/autolink.h; sourceTree = "<group>"; };
+		FA43BFA5150888C4002483C0 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = ../src/buffer.c; sourceTree = "<group>"; };
+		FA43BFA6150888C4002483C0 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = ../src/buffer.h; sourceTree = "<group>"; };
+		FA43BFA7150888C4002483C0 /* html_blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = html_blocks.h; path = ../src/html_blocks.h; sourceTree = "<group>"; };
+		FA43BFA8150888C4002483C0 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = ../src/markdown.c; sourceTree = "<group>"; };
+		FA43BFA9150888C4002483C0 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = ../src/markdown.h; sourceTree = "<group>"; };
+		FA43BFAA150888C4002483C0 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stack.c; path = ../src/stack.c; sourceTree = "<group>"; };
+		FA43BFAB150888C4002483C0 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ../src/stack.h; sourceTree = "<group>"; };
+		FA5EACDA1507BEA400A3B2BF /* libsundown.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsundown.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5EACDD1507BEA400A3B2BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA5EACE01507BEA400A3B2BF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA5EACE11507BEA400A3B2BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA5EACE21507BEA400A3B2BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA5EACE51507BEA400A3B2BF /* sundown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sundown-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5EACD71507BEA400A3B2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5EACDE1507BEA400A3B2BF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5EACCF1507BEA300A3B2BF = {
+			isa = PBXGroup;
+			children = (
+				FA5EACE31507BEA400A3B2BF /* sundown */,
+				FA5EACDC1507BEA400A3B2BF /* Frameworks */,
+				FA5EACDB1507BEA400A3B2BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5EACDB1507BEA400A3B2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EACDA1507BEA400A3B2BF /* libsundown.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5EACDC1507BEA400A3B2BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EACDD1507BEA400A3B2BF /* Cocoa.framework */,
+				FA5EACDF1507BEA400A3B2BF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA5EACDF1507BEA400A3B2BF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EACE01507BEA400A3B2BF /* AppKit.framework */,
+				FA5EACE11507BEA400A3B2BF /* CoreData.framework */,
+				FA5EACE21507BEA400A3B2BF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA5EACE31507BEA400A3B2BF /* sundown */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EAD171507BF3D00A3B2BF /* C sources */,
+				FA5EACE51507BEA400A3B2BF /* sundown-Prefix.pch */,
+			);
+			name = sundown;
+			sourceTree = "<group>";
+		};
+		FA5EAD171507BF3D00A3B2BF /* C sources */ = {
+			isa = PBXGroup;
+			children = (
+				FA43BFA3150888C4002483C0 /* autolink.c */,
+				FA43BFA4150888C4002483C0 /* autolink.h */,
+				FA43BFA5150888C4002483C0 /* buffer.c */,
+				FA43BFA6150888C4002483C0 /* buffer.h */,
+				FA43BFA7150888C4002483C0 /* html_blocks.h */,
+				FA43BFA8150888C4002483C0 /* markdown.c */,
+				FA43BFA9150888C4002483C0 /* markdown.h */,
+				FA43BFAA150888C4002483C0 /* stack.c */,
+				FA43BFAB150888C4002483C0 /* stack.h */,
+				FA43BF73150887B9002483C0 /* houdini.h */,
+				FA43BF74150887B9002483C0 /* html.h */,
+				FA43BF6915088655002483C0 /* houdini_href_e.c */,
+				FA43BF6A15088655002483C0 /* houdini_html_e.c */,
+				FA43BF6B15088655002483C0 /* html_smartypants.c */,
+				FA43BF6C15088655002483C0 /* html.c */,
+			);
+			name = "C sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FA5EACD81507BEA400A3B2BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA43BF75150887B9002483C0 /* houdini.h in Headers */,
+				FA43BF76150887B9002483C0 /* html.h in Headers */,
+				FA43BFAD150888C4002483C0 /* autolink.h in Headers */,
+				FA43BFAF150888C4002483C0 /* buffer.h in Headers */,
+				FA43BFB0150888C4002483C0 /* html_blocks.h in Headers */,
+				FA43BFB2150888C4002483C0 /* markdown.h in Headers */,
+				FA43BFB4150888C4002483C0 /* stack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FA5EACD91507BEA400A3B2BF /* sundown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5EACEB1507BEA400A3B2BF /* Build configuration list for PBXNativeTarget "sundown" */;
+			buildPhases = (
+				FA5EACD61507BEA400A3B2BF /* Sources */,
+				FA5EACD71507BEA400A3B2BF /* Frameworks */,
+				FA5EACD81507BEA400A3B2BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sundown;
+			productName = sundown;
+			productReference = FA5EACDA1507BEA400A3B2BF /* libsundown.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5EACD11507BEA300A3B2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FA5EACD41507BEA300A3B2BF /* Build configuration list for PBXProject "sundown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA5EACCF1507BEA300A3B2BF;
+			productRefGroup = FA5EACDB1507BEA400A3B2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5EACD91507BEA400A3B2BF /* sundown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5EACD61507BEA400A3B2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA43BF6D15088655002483C0 /* houdini_href_e.c in Sources */,
+				FA43BF6E15088655002483C0 /* houdini_html_e.c in Sources */,
+				FA43BF6F15088655002483C0 /* html_smartypants.c in Sources */,
+				FA43BF7015088655002483C0 /* html.c in Sources */,
+				FA43BFAC150888C4002483C0 /* autolink.c in Sources */,
+				FA43BFAE150888C4002483C0 /* buffer.c in Sources */,
+				FA43BFB1150888C4002483C0 /* markdown.c in Sources */,
+				FA43BFB3150888C4002483C0 /* stack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA5EACE91507BEA400A3B2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sundown-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../html\"",
+					"\"$(SRCROOT)/../src\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA5EACEA1507BEA400A3B2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sundown-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NS_BLOCK_ASSERTIONS=1",
+					"NDEBUG=1",
+				);
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../html\"",
+					"\"$(SRCROOT)/../src\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA5EACEC1507BEA400A3B2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA5EACED1507BEA400A3B2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5EACD41507BEA300A3B2BF /* Build configuration list for PBXProject "sundown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5EACE91507BEA400A3B2BF /* Debug */,
+				FA5EACEA1507BEA400A3B2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5EACEB1507BEA400A3B2BF /* Build configuration list for PBXNativeTarget "sundown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5EACEC1507BEA400A3B2BF /* Debug */,
+				FA5EACED1507BEA400A3B2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5EACD11507BEA300A3B2BF /* Project object */;
+}
